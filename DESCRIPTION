@@ -5,13 +5,11 @@ Authors@R:
     person("Iena", "Derks", , "inekederks1@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7070-5036"))
 Description: Computes the most relevant explanation for observed evidence in a Bayesian network.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
-    bnlearn,
     dplyr,
     glassoFast,
     gRain,

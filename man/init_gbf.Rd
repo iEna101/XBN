@@ -2,7 +2,7 @@
 % Please edit documentation in R/init_gbf.R
 \name{init_gbf}
 \alias{init_gbf}
-\title{Compute the initiliasation values for each target in the set}
+\title{Compute the initialisation values for each target in the set}
 \usage{
 init_gbf(target_set, evidence_set, evidence_states, bn_grain)
 }
@@ -19,5 +19,5 @@ init_gbf(target_set, evidence_set, evidence_states, bn_grain)
 Starting solutions for each target variable in target_set
 }
 \description{
-Compute the initiliasation values for each target in the set
+Compute the initialisation values for each target in the set
 }

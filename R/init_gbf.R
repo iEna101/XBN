@@ -1,4 +1,4 @@
-#' Compute the initiliasation values for each target in the set
+#' Compute the initialisation values for each target in the set
 #'
 #' @param target_set Set of variables to explore to explain the observed evidence
 #' @param evidence_set Set of observed variable names

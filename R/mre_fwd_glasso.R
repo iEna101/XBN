@@ -191,7 +191,7 @@ mre_fwd_glasso <- function(target_set, evidence_set, evidence_states, bn_grain,
         all_combos[i, 1:n] <- neighbour_names_unique[[i]]
       }
 
-      all_combos <- setdiff(all_combos, all_combos_visit)
+      all_combos <- dplyr::setdiff(all_combos, all_combos_visit)
 
       # update combinations already visited
       all_combos_visit <- unique(rbind(all_combos_visit, all_combos))

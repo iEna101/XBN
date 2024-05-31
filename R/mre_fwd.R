@@ -159,7 +159,7 @@ mre_fwd <- function(target_set, evidence_set, evidence_states, bn_grain) {
       }
 
       # compute gbf score for all neighbours
-      all_neighbours_calc <- setdiff(all_neighbours_calc, all_combos_visit)
+      all_neighbours_calc <- dplyr::setdiff(all_neighbours_calc, all_combos_visit)
 
       # update combinations already visited
       all_combos_visit <- unique(rbind(all_combos_visit, all_neighbours_calc))
